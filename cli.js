@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env bash
 blue=`tput setaf 4`
 green=`tput setaf 2`
 reset=`tput sgr0`
