@@ -7,7 +7,7 @@ check_dep() {
   echo "${blue}Checking unused dependcies please wait...${reset}";
 
   for dep in $(jq -r '.dependencies | keys | .[]' package.json); do
-    if ! grep "from\ .*$dep.*" || "require\(.*$dep.*\)" -Rq --exclude-dir="node_modules" .; then
+    if ! grep "from\ .*$dep.*\|require\(.*$dep.*\)" -Rq --exclude-dir="node_modules" .; then
       echo "You can probably remove "${green}"$dep"${reset}"";
     fi
   done
