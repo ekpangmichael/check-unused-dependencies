@@ -1,5 +1,5 @@
 {
-  "name": "check-dependencies",
+  "name": "@ekpangmichael/check-dependencies",
   "version": "1.0.0",
   "description": "An npm cli tool that checks for unused npm packages in your code",
   "main": "index.js",
