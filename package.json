@@ -13,14 +13,15 @@
   "bin": {
     "check-dep": "./cli.js"
   },
-  "homepage": "https://github.com/ekpangmichael/check-unused-dependencies.git#readme",
-	"bugs": {
-		"url": "https://github.com/ekpangmichael/check-unused-dependencies.git/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ekpangmichael/check-unused-dependencies.git.git"
-	},
-	"license": "MIT",
-	"author": "Ekpang Michael <career.ekpangmichael@gmail.com> (https://github.com/ekpangmichael)"
+  "homepage": "https://github.com/ekpangmichael/check-unused-dependencies#readme",
+  "bugs": {
+    "url": "https://github.com/ekpangmichael/check-unused-dependencies/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekpangmichael/check-unused-dependencies.git"
+  },
+  "license": "MIT",
+  "author": "Ekpang Michael <career.ekpangmichael@gmail.com> (https://github.com/ekpangmichael)",
+  "dependencies": {}
 }
