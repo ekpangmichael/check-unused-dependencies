@@ -4,7 +4,7 @@
   "description": "An npm cli tool that checks for unused npm packages in your code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "cli",
@@ -26,5 +26,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
   }
 }
