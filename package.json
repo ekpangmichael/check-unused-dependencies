@@ -23,5 +23,8 @@
   },
   "license": "MIT",
   "author": "Ekpang Michael <career.ekpangmichael@gmail.com> (https://github.com/ekpangmichael)",
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.11"
+  }
 }
