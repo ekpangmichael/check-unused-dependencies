@@ -11,7 +11,7 @@
     "dependencies"
   ],
   "bin": {
-    "check-dep": "./cli.js"
+    "check-dep": "./lib/cli.js"
   },
   "homepage": "https://github.com/ekpangmichael/check-unused-dependencies#readme",
   "bugs": {
