@@ -9,6 +9,20 @@
   "imageSize": 100,
   "commit": true,
   "commitConvention": "none",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "ekpangmichael",
+      "name": "Ekpang Michael.",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21243814?s=400",
+      "profile": "https://twitter.com/ekpangmichael",
+      "contributions": [
+        "code",
+        "doc",
+        "maintenance",
+        "platform",
+        "test"
+      ]
+    },
+  ],
   "contributorsPerLine": 7
 }
