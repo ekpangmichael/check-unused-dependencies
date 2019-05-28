@@ -23,7 +23,9 @@
   },
   "license": "MIT",
   "author": "Ekpang Michael <career.ekpangmichael@gmail.com> (https://github.com/ekpangmichael)",
-  "dependencies": {},
+  "dependencies": {
+    "all-contributors-cli": "^6.6.1"
+  },
   "devDependencies": {
     "mocha": "^6.1.4"
   }
