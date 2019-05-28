@@ -1,5 +1,5 @@
 {
-  "projectName": "check-unused-dependencies",
+  "projectName": "https://github.com/ekpangmichael/check-unused-dependencies",
   "projectOwner": "ekpangmichael",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -8,20 +8,7 @@
   ],
   "imageSize": 100,
   "commit": true,
-  "contributors": [
-    {
-      "login": "ekpangmichael",
-      "name": "EKpang Michael.",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/21243814?s=4",
-      "profile": "https://twitter.com/ekpangmichael",
-      "contributions": [
-        "code",
-        "doc",
-        "maintenance",
-        "platform",
-        "test"
-      ]
-    },
-  ],
+  "commitConvention": "none",
+  "contributors": [],
   "contributorsPerLine": 7
 }
