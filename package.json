@@ -1,7 +1,7 @@
 {
   "name": "check-unused-dependencies",
-  "version": "1.1.6",
-  "description": "An npm cli tool that checks for unused npm packages in your code",
+  "version": "1.1.7",
+  "description": "A cli tool that checks for unused npm packages in a project",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
