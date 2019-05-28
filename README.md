@@ -10,8 +10,7 @@
 
 
 ## Description
-
- Sometimes we add packages that  we never end up using and forget to uninstall them, `check-unused-dependencies ` is a cli tool that scans through your project for such packages and let you remove them if you want to.
+Sometimes, we add packages that we never end up using and forget to remove them, `check-unused-dependencies ` is a CLI tool that scans through your project for such packages and let you remove them if you want to.
 ## Installation
 
 ```bash
@@ -21,7 +20,7 @@ $ sudo npm install -g check-unused-dependencies
 
 ## Usage
 
-cd in`enter code here` any project and run `check-dep`
+cd into your project and run `check-dep`
 
 
 ## Contributors
