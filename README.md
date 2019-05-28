@@ -21,7 +21,7 @@ $ sudo npm install -g check-unused-dependencies
 
 ## Usage
 
-cd in`enter code here` any project and run `check-dep`
+cd into your project and run `check-dep`
 
 
 ## Contributors
