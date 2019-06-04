@@ -17,10 +17,10 @@ This project uses `jq`
 ###  Install `jq` for mac
 `brew  install jq`
 
-### Install `jq` for windows**
+### Install `jq` for windows
 `chocolatey install jq`
 
- ### Install `jq` for Linux**
+ ### Install `jq` for Linux
 `sudo apt-get install jq`
 
 ## Installation
