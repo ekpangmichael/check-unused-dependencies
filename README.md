@@ -1,4 +1,5 @@
 
+
 <div>
 	<img src="https://i.imgur.com/y46CgWg.gif">
 	<h1 style="font-weight:bold;">check-unused-dependencies </h1>
@@ -8,20 +9,63 @@
 
 </div>
 
-
 ## Description
 Sometimes, we add packages that we never end up using and forget to remove them, `check-unused-dependencies ` is a CLI tool that scans through your project for such packages and let you remove them if you want to.
+
+## Dependencies
+This project uses `jq` 
+ **Install `jq` for mac**
+`brew  install jq`
+
+**Install `jq` for windows**
+`chocolatey install jq`
+
+ **Install `jq` for Linux**
+`sudo apt-get install jq`
+
 ## Installation
 
+The recommeded way to install  this package is to do a global install so that you can use it on any project.
+
+### Install as global package
 ```bash
 $ sudo npm install -g check-unused-dependencies
 ```
 
-
+### Install as devDependencies
+```bash
+$ npm install check-unused-dependencies
+```
 ## Usage
 
-cd into your project and run `check-dep`
+**If installed globally** 
+cd into any project and run `check-dep`
 
+**If installed  as  devDependencies** 
+You can run it as an npm script
+
+## Example
+
+  ``` {
+
+"name": "test",
+"version": "1.0.0",
+"description": "",
+"main": "index.js",
+
+"scripts": {
+"check": "check-dep"
+},
+"dependencies": {
+"check-unused-dependencies": "^1.1.6",
+"express": "^4.17.0"
+}
+} 
+```
+
+```bash
+$  npm run check 
+```
 
 ## Contributors
 
