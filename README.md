@@ -25,8 +25,7 @@ This project uses `jq`
 
 ## Installation
 
-The recommeded way to install  this package is to do a global install so that you can use it on any project.
-
+The recommended way to install  this package is to do a global install
 ### Install as global package
 ```bash
 $ sudo npm install -g check-unused-dependencies
@@ -38,10 +37,10 @@ $ npm install check-unused-dependencies
 ```
 ## Usage
 
-**If installed globally** 
+### If installed globally
 cd into any project and run `check-dep`
 
-**If installed  as  devDependencies** 
+### If installed  as  devDependencies
 You can run it as an npm script
 
 ## Example
